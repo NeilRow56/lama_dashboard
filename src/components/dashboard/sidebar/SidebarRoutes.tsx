@@ -69,7 +69,7 @@ export const SidebarRoutes = () => {
 
   return (
     <div className="flex w-full flex-col gap-4 py-6">
-      <h2>Pages</h2>
+      <h2 className="text-sky-300">Pages</h2>
       {routes.map((route) => (
         <SidebarItem
           key={route.href}

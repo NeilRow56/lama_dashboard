@@ -1,6 +1,7 @@
 import { BaggageClaim } from 'lucide-react'
 import { SidebarRoutes } from './SidebarRoutes'
 import Link from 'next/link'
+import SidebarCollapsibleItem from './SidebarCollsibleItem'
 
 const Sidebar = () => {
   return (
@@ -16,7 +17,7 @@ const Sidebar = () => {
           <BaggageClaim />
           <span className="text-bold text-xl">Dashboard</span>
         </Link>
-
+        <SidebarCollapsibleItem />
         <SidebarRoutes />
       </div>
     </div>
