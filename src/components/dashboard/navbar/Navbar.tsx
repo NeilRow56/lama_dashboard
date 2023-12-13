@@ -10,7 +10,7 @@ import { Input } from '@/components/ui/input'
 function Navbar() {
   const pathname = usePathname()
   return (
-    <nav className="flex h-[60px] items-center justify-between border-b border-border px-4 py-2">
+    <nav className=" flex h-[60px] items-center justify-between border-b border-border px-4 py-2">
       <div className="flex items-center gap-3">
         <Logo />
         <h2 className="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-3xl font-bold text-transparent hover:cursor-pointer">
